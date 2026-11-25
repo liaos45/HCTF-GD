@@ -1,0 +1,4 @@
+# Preserve the byte-level evidence hashes across operating systems.
+* -text
+*.npz binary
+*.pdf binary

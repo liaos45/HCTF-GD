@@ -1,0 +1,43 @@
+{
+  "status": "VALIDATION_GRAPHWISE_COMPLETE",
+  "domain": "enzymes",
+  "seed": 17,
+  "model_id": "HCTF-GD-GraphLocal-v1",
+  "split": "validation",
+  "graphs": 85,
+  "rows": 340,
+  "variants": [
+    "A_both",
+    "B_caid_only",
+    "C_macpsg_only",
+    "D_neither"
+  ],
+  "checkpoint_paths_and_hashes": {
+    "A_both": {
+      "path": "research_v2/graph_local/checkpoints/HCTF-GD-GraphLocal-v1_enzymes_s17_A_both_best.pt",
+      "sha256": "31a7c6e1ffb9351fb2ac2101744e8414c227db8d12346f84c6ba6d0b54b07396"
+    },
+    "B_caid_only": {
+      "path": "research_v2/graph_local/checkpoints/HCTF-GD-GraphLocal-v1_enzymes_s17_B_caid_only_best.pt",
+      "sha256": "1978d008c5786f3e049b09c5508cd01b8752ac6d75f2c25d73ba98131b890c21"
+    },
+    "C_macpsg_only": {
+      "path": "research_v2/graph_local/checkpoints/HCTF-GD-GraphLocal-v1_enzymes_s17_C_macpsg_only_best.pt",
+      "sha256": "f34beb00af5b7d436666bcd5399114f884faac0e4e28e6f66f5fe10114fe0e63"
+    },
+    "D_neither": {
+      "path": "research_v2/graph_local/checkpoints/HCTF-GD-GraphLocal-v1_enzymes_s17_D_neither_best.pt",
+      "sha256": "382d14fdd9bdc2768abb674c6419fd0a247f40eb115c1c5f08acd7aeb76645d8"
+    }
+  },
+  "manifest_sha256": "23c10ac98df8d2c1f54845d9fbd45338d6585100ebccaa6ab529524f36de569f",
+  "evaluation_script_sha256": "3e2ca2ac2e6f7e57052bbb211c27fcfa5e01470f78f466e03947bbfca857f81b",
+  "graphwise_csv_sha256": "17d75e37129d467f4ece8ca0a6b84004fcb466f27b97de9991c8332dd0a416dd",
+  "coordinates_npz_sha256": "11e6fce448a520cdc9e5d1ac89c925304a59fefa81a22b9b2cd888ae49d0aa9d",
+  "primary_metric": "stored-forward pair-normalized stress: local DeepGD pair-sum / n(n-1)",
+  "runtime_scope": "one graph forward_model, GPU synchronized; excludes dataset construction and CPU metric audits",
+  "community_labels": "checkpoint dataset's graph-local supplied labels",
+  "selection_note": "Validation was used to select these checkpoints; results are developmental, not independent Test evidence.",
+  "reserved_test_evaluation": false,
+  "device": "cuda"
+}

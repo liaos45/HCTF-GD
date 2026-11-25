@@ -1,0 +1,43 @@
+{
+  "status": "VALIDATION_GRAPHWISE_COMPLETE",
+  "domain": "sbm",
+  "seed": 17,
+  "model_id": "HCTF-GD-GraphLocal-v1",
+  "split": "validation",
+  "graphs": 225,
+  "rows": 900,
+  "variants": [
+    "A_both",
+    "B_caid_only",
+    "C_macpsg_only",
+    "D_neither"
+  ],
+  "checkpoint_paths_and_hashes": {
+    "A_both": {
+      "path": "research_v2/graph_local/checkpoints/HCTF-GD-GraphLocal-v1_sbm_s17_A_both_best.pt",
+      "sha256": "c3121b77ae2d551626e3cb7329f266c077f0a2a3cac836eca77aacc543248273"
+    },
+    "B_caid_only": {
+      "path": "research_v2/graph_local/checkpoints/HCTF-GD-GraphLocal-v1_sbm_s17_B_caid_only_best.pt",
+      "sha256": "4e5f1d9648290cad46c878603dc649901b963de341256c57913d06a4398dcc4c"
+    },
+    "C_macpsg_only": {
+      "path": "research_v2/graph_local/checkpoints/HCTF-GD-GraphLocal-v1_sbm_s17_C_macpsg_only_best.pt",
+      "sha256": "78aa3b08cc6ca730ebcb384798102218b573b76f96879a853eee2a7f1350525c"
+    },
+    "D_neither": {
+      "path": "research_v2/graph_local/checkpoints/HCTF-GD-GraphLocal-v1_sbm_s17_D_neither_best.pt",
+      "sha256": "d80000d4ee346d6d50d04519d2cdde6aa3ada23228891bf369bf6c53e3f6b2e6"
+    }
+  },
+  "manifest_sha256": "f764ce0cff4b6247ce837e7081e67f3a08a8a5b516c3bc72e2ed535410b7f207",
+  "evaluation_script_sha256": "3e2ca2ac2e6f7e57052bbb211c27fcfa5e01470f78f466e03947bbfca857f81b",
+  "graphwise_csv_sha256": "8be8e115a14c11179693dd0907e44b1ab3f9065860a2a211c6565a2c85b40353",
+  "coordinates_npz_sha256": "06ed8221f99424220c6646feadc45fee67c7b55e7502086364d5580ad0f5cfa8",
+  "primary_metric": "stored-forward pair-normalized stress: local DeepGD pair-sum / n(n-1)",
+  "runtime_scope": "one graph forward_model, GPU synchronized; excludes dataset construction and CPU metric audits",
+  "community_labels": "checkpoint dataset's graph-local supplied labels",
+  "selection_note": "Validation was used to select these checkpoints; results are developmental, not independent Test evidence.",
+  "reserved_test_evaluation": false,
+  "device": "cuda"
+}

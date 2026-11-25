@@ -1,0 +1,12 @@
+contrast,equal_domain_mean_effect_pct,bootstrap_95_low_pct,bootstrap_95_high_pct,replicates,scope
+111_vs_110,0.08548036970305009,0.04610500392048543,0.12318496578092814,10000,"Validation, selected checkpoints; descriptive interval"
+111_vs_101,0.020008021248545185,0.009694974557505872,0.030063787016910305,10000,"Validation, selected checkpoints; descriptive interval"
+111_vs_011,0.26744861465410796,0.1351253082744903,0.4394590877714955,10000,"Validation, selected checkpoints; descriptive interval"
+111_vs_000,0.3819096473863902,0.22439240136733327,0.5636942234708747,10000,"Validation, selected checkpoints; descriptive interval"
+N_main,0.2767156892258563,0.14773848909388793,0.451507125197767,10000,"Validation, selected checkpoints; descriptive interval"
+F_main,0.019820642527598978,0.007061389835192019,0.032792190966825875,10000,"Validation, selected checkpoints; descriptive interval"
+C_main,0.0863195193352594,0.047235465486877994,0.12477608970483568,10000,"Validation, selected checkpoints; descriptive interval"
+N_F_interaction,-0.007604817376484712,-0.01972703069505342,0.003529341425619594,10000,"Validation, selected checkpoints; descriptive interval"
+N_C_interaction,-0.010732591448026784,-0.019187934244168123,-0.004750781151171897,10000,"Validation, selected checkpoints; descriptive interval"
+F_C_interaction,0.009478333403876237,-0.003052882736945725,0.03828683541537196,10000,"Validation, selected checkpoints; descriptive interval"
+N_F_C_interaction,-0.0037848148093077463,-0.014910515989817647,0.005482348035571899,10000,"Validation, selected checkpoints; descriptive interval"

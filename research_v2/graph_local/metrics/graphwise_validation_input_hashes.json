@@ -1,0 +1,11 @@
+{
+  "research_v2/graph_local/validation_graphwise/enzymes_s17/graphwise_validation.csv": "17d75e37129d467f4ece8ca0a6b84004fcb466f27b97de9991c8332dd0a416dd",
+  "research_v2/graph_local/validation_graphwise/enzymes_s42/graphwise_validation.csv": "b49e9497662a3b8b0c2a9f08bf4742eba6582d5fc7f102411707c6e8d38c3adb",
+  "research_v2/graph_local/validation_graphwise/enzymes_s73/graphwise_validation.csv": "931fb2f18d5c356cdf0596ee1a1e41c653d09be80b936ddb67165166c5c3afbb",
+  "research_v2/graph_local/validation_graphwise/fb15k237_s17/graphwise_validation.csv": "3ca06828c195a962c53b0a06236a12e14bde1c93a568f7ae86381b466253c8b6",
+  "research_v2/graph_local/validation_graphwise/fb15k237_s42/graphwise_validation.csv": "dfb7ca03d224c5b751c9a036883cdd83da0b52ed68f63fae7b9d9a5218509c6f",
+  "research_v2/graph_local/validation_graphwise/fb15k237_s73/graphwise_validation.csv": "8816d7a7c7a1cd3b8d0f72c4ce1d66ee7e08fceadb1dfbd980d3c6cc4e70abdf",
+  "research_v2/graph_local/validation_graphwise/sbm_s17/graphwise_validation.csv": "8be8e115a14c11179693dd0907e44b1ab3f9065860a2a211c6565a2c85b40353",
+  "research_v2/graph_local/validation_graphwise/sbm_s42/graphwise_validation.csv": "de3317daefe0fe40be7f675e4549e7c42a6488035f4209c6d4d0e471e3f6c924",
+  "research_v2/graph_local/validation_graphwise/sbm_s73/graphwise_validation.csv": "38d7b1751050baa48357cade46d92ae7c13ad54dde67f6ba3a2f92fcd06e50af"
+}

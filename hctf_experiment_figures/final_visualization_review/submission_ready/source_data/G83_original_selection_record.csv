@@ -1,0 +1,2 @@
+dataset,graph_id,batch_id,accepted,selected_source,selected_alpha,score,num_nodes,num_edges,audit_seconds
+sbm,83,10,True,full_nodrop,0.75,0.0347654085310962,52,151,0.2224668000126257

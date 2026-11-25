@@ -1,0 +1,13 @@
+{
+  "results/hctf_graph_metadata.csv": "dfeb57596f3637182d437db8d7cc7bfc3a7e03cd5c6db2d5692c17b50f11bf43",
+  "results/hctf_warm_start_exposure/per_graph_exposure.csv": "e73de4e88ff7aeea682c766140995f9703302f05046bff03408398be379605c1",
+  "results/hctf_warm_start_exposure/split_exposure.csv": "e85fa4c9fdfe53882d4525522ac4a3050fa16a345f826027a08f791f27a0e599",
+  "assets/enzymes_index.txt": "d26cee761822a2185fc8556ea885a6d0ff77a6cbbdf5ae15d64b0b60186b836f",
+  "assets/proteins_index.txt": "4715d079848943faf50ebebc7f1d62d8c440d364ed041894082ebf3a95d83ed8",
+  "assets/imdb_binary_index.txt": "534326b58c060a6450b353cefdeaedb021926108c0bbd01dfe5ca02dbe22c86b",
+  "assets/sbm_index.txt": "e119837de7c5abf14f3486bb10d78b1e494cc42b5e044cef421cbf3940c856a9",
+  "assets/wn18rr_index.txt": "0d57e8645f0ac24894819488a141581366c8b7316f4352809e7d13f4c3044615",
+  "assets/fb15k237_index.txt": "7c319cea00861f603fb7afe1b0bac9baf544f4a538c57843b84a9dec1993f507",
+  "assets/north_index.txt": "0a02755a94c7fc258eb87d579e90f81f2f4ad92b09c80574611f9e3ca7dd0d40",
+  "assets/rome_index.txt": "153cce1edc080a065e023a2013f2ce1f35a58b3f31423dfcbbbcb59192684e56"
+}

@@ -1,0 +1,8 @@
+{
+  "proper_similarity_recovered": true,
+  "reflection_not_fitted_exactly": true,
+  "rotation_translation_scale": true,
+  "reflection_permitted": false,
+  "source": "train_cser_spectral_mog_end2end.py",
+  "source_sha256": "45d365baf6df67af02714ef38d886b2bc55ef49d99b05943c41cc9bb5bdf4b4a"
+}

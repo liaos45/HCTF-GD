@@ -1,0 +1,2 @@
+﻿records,sizes,variants,component_sum_max_difference_ms,baseline_has_audit_measurement,nonbaseline_extra_forward_positive,source,production_training_comparison
+72,16;32;64;128;256;512,baseline;full_nodrop;node_only_nodrop,0.000800006091594696,True,True,scripts/benchmark_hctf_end_to_end.py:68-123,False

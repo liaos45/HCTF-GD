@@ -1,0 +1,6 @@
+seed,graph_id,original_graph_name,num_nodes,num_edges,node_order_equal,original_edges_equal,detected_labels_equal
+17,95,sbm_00518,49,91,True,True,True
+17,13,sbm_00217,30,42,True,True,True
+73,9,sbm_01200,32,39,True,True,True
+73,103,sbm_01344,48,67,True,True,True
+73,83,sbm_00252,52,151,True,True,True

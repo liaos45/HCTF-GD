@@ -1,0 +1,24 @@
+# Local Python dependencies and caches
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.env
+.env.*
+
+# Local experiment inputs, weights and regenerated output
+/datasets/
+/checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.zip
+*.log
+/logs/
+/regenerated_figures/
+/regenerated_tables/
+/reproduction/EXECUTION_LOG.md
+/reproduction/02_CLAIM_LEVEL_STATISTICS.csv
+/reproduction/04_ACCEPTANCE_REPRODUCTION.csv
+/reproduction/evidence/*
+!/reproduction/evidence/actual_checkpoint_args.json

@@ -1,0 +1,4 @@
+variant,median_ms_per_graph
+baseline,23.02248750129365
+full_nodrop,29.7767375013791
+node_only_nodrop,27.505637499416476

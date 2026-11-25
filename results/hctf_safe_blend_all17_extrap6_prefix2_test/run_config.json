@@ -1,0 +1,24 @@
+{
+  "datasets": [
+    "enzymes"
+  ],
+  "alphas": "0,0.0625,0.125,0.25,0.5,0.75,1",
+  "max_test_batches": -1,
+  "split": "test",
+  "selection_metric_set": "all",
+  "core_candidate_count": 3,
+  "pairwise_mixture_weights": "",
+  "pareto_chain_sweeps": 0,
+  "pareto_chain_steps": "0.03125,0.0625,0.125,0.25",
+  "output_subdir": "hctf_safe_blend_all17_extrap6_prefix2_test",
+  "objective_preference": "",
+  "relative_tolerance": 0.0,
+  "monotone_refinement_levels": 1,
+  "monotone_extrapolation_step": 0.25,
+  "monotone_extrapolation_steps": 20,
+  "monotone_extension_prefix_alpha": 2.0,
+  "baseline_checkpoint": "",
+  "candidate_checkpoints": "original=checkpoints/enzymes_hctf_all8_hctf_pilot_best.pt;conservative=checkpoints/enzymes_hctf_conservative_t2_h16_d10_s008_b2_best.pt;balanced=checkpoints/enzymes_hctf_balanced_t2_h16_d05_s010_b2_best.pt;dominance_lr=checkpoints/enzymes_hctf_dominance_v2_lr3e4_best.pt;readability_v4=checkpoints/hctf_readability_targeted/enzymes_hctf_readability_targeted_v4_best.pt;angular_v5=checkpoints/hctf_readability_targeted/enzymes_hctf_readability_targeted_v5_angular_best.pt",
+  "device": "cpu",
+  "deterministic_eval": true
+}

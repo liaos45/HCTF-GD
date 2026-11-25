@@ -1,0 +1,695 @@
+{
+  "status": "PASS",
+  "forest_status": "PASS",
+  "source_fixture_status": "PASS",
+  "example_kind": "fixed mechanism example; not experimental layouts/performance",
+  "nodes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "original_edges": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      8
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      7,
+      8
+    ]
+  ],
+  "positions": {
+    "0": [
+      -2.0,
+      0.0
+    ],
+    "1": [
+      -1.0,
+      1.0
+    ],
+    "2": [
+      -1.0,
+      -1.0
+    ],
+    "3": [
+      0.0,
+      1.0
+    ],
+    "4": [
+      0.0,
+      -1.0
+    ],
+    "5": [
+      1.0,
+      1.0
+    ],
+    "6": [
+      1.0,
+      0.0
+    ],
+    "7": [
+      1.0,
+      -1.0
+    ],
+    "8": [
+      2.0,
+      0.0
+    ]
+  },
+  "forests": [
+    {
+      "index": 1,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "new_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "new_count": 8,
+      "reused_edges": [],
+      "cumulative": 8,
+      "acyclic": true,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      ],
+      "isolated_nodes": [],
+      "root": 6,
+      "top_down": [
+        [
+          6,
+          3,
+          1
+        ],
+        [
+          6,
+          4,
+          1
+        ],
+        [
+          6,
+          5,
+          1
+        ],
+        [
+          6,
+          7,
+          1
+        ],
+        [
+          6,
+          8,
+          1
+        ],
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          4,
+          2,
+          2
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ],
+      "bottom_up": [
+        [
+          3,
+          6,
+          1
+        ],
+        [
+          4,
+          6,
+          1
+        ],
+        [
+          5,
+          6,
+          1
+        ],
+        [
+          7,
+          6,
+          1
+        ],
+        [
+          8,
+          6,
+          1
+        ],
+        [
+          1,
+          3,
+          2
+        ],
+        [
+          2,
+          4,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "index": 2,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "new_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "new_count": 6,
+      "reused_edges": [
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "cumulative": 14,
+      "acyclic": true,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      ],
+      "isolated_nodes": [],
+      "root": 6,
+      "top_down": [
+        [
+          6,
+          4,
+          1
+        ],
+        [
+          4,
+          3,
+          2
+        ],
+        [
+          4,
+          7,
+          2
+        ],
+        [
+          3,
+          5,
+          3
+        ],
+        [
+          3,
+          1,
+          3
+        ],
+        [
+          5,
+          8,
+          4
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          1,
+          0,
+          4
+        ]
+      ],
+      "bottom_up": [
+        [
+          4,
+          6,
+          1
+        ],
+        [
+          3,
+          4,
+          2
+        ],
+        [
+          7,
+          4,
+          2
+        ],
+        [
+          5,
+          3,
+          3
+        ],
+        [
+          1,
+          3,
+          3
+        ],
+        [
+          8,
+          5,
+          4
+        ],
+        [
+          2,
+          1,
+          4
+        ],
+        [
+          0,
+          1,
+          4
+        ]
+      ]
+    },
+    {
+      "index": 3,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "new_edges": [
+        [
+          7,
+          8
+        ]
+      ],
+      "new_count": 1,
+      "reused_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "cumulative": 15,
+      "acyclic": true,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      ],
+      "isolated_nodes": [],
+      "root": 6,
+      "top_down": [
+        [
+          6,
+          3,
+          1
+        ],
+        [
+          6,
+          5,
+          1
+        ],
+        [
+          6,
+          7,
+          1
+        ],
+        [
+          3,
+          4,
+          2
+        ],
+        [
+          7,
+          8,
+          2
+        ],
+        [
+          4,
+          2,
+          3
+        ],
+        [
+          2,
+          1,
+          4
+        ],
+        [
+          2,
+          0,
+          4
+        ]
+      ],
+      "bottom_up": [
+        [
+          3,
+          6,
+          1
+        ],
+        [
+          5,
+          6,
+          1
+        ],
+        [
+          7,
+          6,
+          1
+        ],
+        [
+          4,
+          3,
+          2
+        ],
+        [
+          8,
+          7,
+          2
+        ],
+        [
+          2,
+          4,
+          3
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          0,
+          2,
+          4
+        ]
+      ]
+    }
+  ],
+  "subtree_forest": 1,
+  "subtree_edges": [
+    [
+      6,
+      3
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      6,
+      5
+    ],
+    [
+      3,
+      1
+    ]
+  ],
+  "archive_and_current_cover_identical": true,
+  "canonicalization_noise_invariant": true,
+  "subtree_has_degree_three_branch": true,
+  "disconnected_isolates_fixture": "PASS: nodes3,4 retained in five-node forest representation",
+  "builder_source": "results/hctf_strict_size_ood/source_snapshot_strict/deepgd/model/generator/hctf.py",
+  "builder_sha256": "048302936545542c9c465b3741aa952343e7a32dadc477f4226b94c6b8d3423d",
+  "current_builder_sha256": "59d2f5e03cdddf27e02654d03b93ec2c3a62acb755362e00c205318d4f52ce93",
+  "old_pdf_sha256": "adccdc99dae29ce9594cd9a4f9017eb925ef9fafd91d674c4b0fb6d73b72a499",
+  "checkpoint_config": {
+    "use_hctf": true,
+    "hctf_num_trees": 3,
+    "hctf_adaptive_structure_gate": true,
+    "hctf_graph_gate": false,
+    "hctf_node_only_control": false,
+    "hctf_coordinate_residual": false,
+    "hctf_dropout": 0.0
+  },
+  "checkpoint_sha256": "6d198c9e2257e1075cdcd4c29442e75e6f4d7070c144fc5f532656f2e24f7d2e",
+  "unit_fixture_kind": "untrained fixed hidden/community fixture, not experimental evidence",
+  "unit_fixture_errors": {
+    "weighted_joint_aggregate": 0.0,
+    "graph_community_context": 2.9802322387695312e-08,
+    "eval_fusion": 0.0,
+    "gate_zero": 0.0,
+    "train_dropout_order": 0.0,
+    "graph_local_batching": 0.0
+  },
+  "gate_zero_retained_node_effect": 0.0029442980885505676,
+  "protected_files_unchanged": 453,
+  "trained_checkpoint_forward_performed": false,
+  "training_or_new_experiment_performed": false,
+  "formula": "h'_i=h_i+s*a_i*(u_i+g_G*v_i)",
+  "paper_code_consistency": "PASS"
+}

@@ -1,0 +1,45 @@
+{
+  "status": "LOCKED_BEFORE_NEW_TEST",
+  "date_local": "2026-11-12",
+  "primary_metric": "graph_stress",
+  "primary_definition": "per-graph DeepGD relative squared distance-error pair sum divided by n(n-1), using stored-forward coordinates and original graph distances",
+  "primary_orientation": "lower_is_better",
+  "secondary_metrics": {
+    "edge_crossing": "lower_is_better",
+    "edge_length_cv": "lower_is_better",
+    "node_occlusion_rate": "lower_is_better",
+    "community_compactness": "lower_is_better",
+    "community_separation": "higher_is_better",
+    "community_silhouette": "higher_is_better",
+    "community_sep_comp_ratio": "higher_is_better"
+  },
+  "reference_floors": {
+    "graph_stress": 0.01,
+    "edge_crossing": 1.0,
+    "edge_length_cv": 0.05,
+    "node_occlusion_rate": 0.001,
+    "community_compactness": 0.05,
+    "community_separation": 0.05,
+    "community_silhouette": 0.05,
+    "community_sep_comp_ratio": 0.05
+  },
+  "effect_estimator": "For each domain and seed, calculate 100*(reference run-mean - treatment run-mean)/max(abs(reference run-mean), floor) for lower-is-better metrics, reverse numerator for higher-is-better; average seeds within fixed domains, then weight domains equally.",
+  "bootstrap": {
+    "replicates": 10000,
+    "random_seed": 20261112,
+    "confidence_level": 0.95,
+    "interval": "percentile",
+    "seed_resampling": "A common seed-index draw across domains, with replacement, preserves shared seed identity.",
+    "graph_resampling": "Within each domain and each sampled seed occurrence, resample original graph IDs with replacement and apply the identical draw to every paired model/ablation setting.",
+    "unit": "original graph identity within domain and seed; repeated seed observations are clustered, not independent graphs"
+  },
+  "comparisons": {
+    "graph_local": ["A_both vs B_caid_only", "A_both vs C_macpsg_only", "A_both vs D_neither"],
+    "factorial": ["111 vs 110", "111 vs 101", "111 vs 011", "111 vs 000", "all three main effects and all two/three-factor interactions"],
+    "new_domain_ood": ["full vs backbone", "node_only vs backbone", "full vs node_only"]
+  },
+  "multiplicity": "Holm adjustment across the seven secondary metrics for each prespecified model comparison in formal Test; all secondary endpoints reported, regardless of significance.",
+  "sensitivity": ["domain-equal estimates by domain and seed", "new-domain OOD aggregate excluding ENZYMES", "median and standard deviation of domain-seed contrasts", "positive/negative domain and graph proportions"],
+  "forbidden": ["post-Test model selection", "changing bootstrap after viewing Test", "mixing Strict Original and Q1 archives", "treating Validation intervals as independent Test inference"],
+  "test_release": "CLOSED_PENDING_ALL_GATES"
+}

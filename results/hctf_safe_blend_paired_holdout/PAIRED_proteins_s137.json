@@ -1,0 +1,31 @@
+{
+  "dataset": "proteins",
+  "seed": 137,
+  "graphs": 108,
+  "variants": [
+    "full_nodrop",
+    "node_only_nodrop"
+  ],
+  "selection_metrics": [
+    "batch_stress",
+    "edge_crossing",
+    "edge_crossing_norm",
+    "edge_length_variance",
+    "edge_length_cv",
+    "node_occlusion_rate",
+    "community_compactness",
+    "community_separation",
+    "community_sep_comp_ratio",
+    "community_silhouette"
+  ],
+  "unselected_metrics": [
+    "angular_resolution_deg",
+    "angular_resolution_ratio",
+    "crossing_angle_deg",
+    "crossing_angle_p05_deg",
+    "node_edge_clearance",
+    "node_edge_clearance_p05",
+    "neighborhood_preservation_k5"
+  ],
+  "same_baseline_inference": true
+}

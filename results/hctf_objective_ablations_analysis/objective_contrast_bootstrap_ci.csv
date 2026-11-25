@@ -1,0 +1,121 @@
+dataset,reference_variant,trial_variant,contrast,metric,seeds,mean_gain_pct,seed_std_pct,hierarchical_bootstrap_ci_low_pct,hierarchical_bootstrap_ci_high_pct
+enzymes,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,graph_stress,3,-0.13473970728742432,0.1721684228921934,-0.5797597007359436,0.10604143758008343
+enzymes,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,edge_crossing,3,0.057701065649042836,0.33903774729229097,-0.3781027426342295,0.4544078740453342
+enzymes,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,edge_crossing_norm,3,0.8765342437309536,1.4923673918381855,-0.16008011706452444,2.4477708160732385
+enzymes,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,edge_length_variance,3,-0.08021779178068407,0.10518029607109151,-0.3620270672758163,0.05842648851740291
+enzymes,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,edge_length_cv,3,-0.06991917646355518,0.08721573577135307,-0.29148149685586194,0.0459063769751948
+enzymes,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,node_occlusion_rate,3,6.446648878938716,9.078535208123247,0.040223874320468436,17.948244597141727
+enzymes,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,community_compactness,3,0.021737554246170267,0.028891636868277962,0.0009107333381063058,0.07261968188434006
+enzymes,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,community_separation,3,-0.0007700984897092795,0.0029429393861995965,-0.011876251895016725,0.005162674865813158
+enzymes,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,community_sep_comp_ratio,3,0.011081680161453264,0.0071418931725901755,0.0013880548896869694,0.02496191935680279
+enzymes,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,community_silhouette,3,0.01890478753179548,0.014705759452631126,-0.030291243868024054,0.07078141576402412
+enzymes,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),graph_stress,3,0.04537682034495577,0.12374244636510638,-0.08407468998200095,0.23400665608963914
+enzymes,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),edge_crossing,3,-0.18465337553243652,0.19280635795436857,-0.7154344644645659,0.11686942336528815
+enzymes,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),edge_crossing_norm,3,-0.4498872185609666,1.8738917678563685,-4.2412027809634685,1.9075598409126402
+enzymes,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),edge_length_variance,3,0.08024566769716676,0.12646995623074805,-0.01077072387330111,0.276245414314931
+enzymes,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),edge_length_cv,3,0.05217779459548113,0.09097649908517136,-0.02067829714877222,0.21044852113514637
+enzymes,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),node_occlusion_rate,3,4.988069446727196,9.707419032869012,-1.9897114209191682,16.871477424710264
+enzymes,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),community_compactness,3,0.009904788799495662,0.013109185992655821,-1.7361227229958308e-05,0.025257141468170728
+enzymes,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),community_separation,3,-0.004228172711507625,0.008253721948866323,-0.02285601100453204,0.0035161057164226975
+enzymes,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),community_sep_comp_ratio,3,0.007052387657030576,0.00779647820483431,-0.00961824152779481,0.025046495335590852
+enzymes,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),community_silhouette,3,-0.06484366869789777,0.1085424773649135,-0.2580070433793127,0.005782911256776937
+enzymes,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,graph_stress,3,-2.471634021434424,4.937801377699883,-9.125392205624205,0.7412326163210644
+enzymes,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,edge_crossing,3,-0.2639697556711344,0.7444342160367633,-2.0500841105576852,1.202282201309131
+enzymes,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,edge_crossing_norm,3,-3.991079134571855,4.922410287354766,-13.335868007286212,0.2527499397530532
+enzymes,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,edge_length_variance,3,-1.3551064033160556,2.5189193928345173,-4.597625736819106,0.2115044204953607
+enzymes,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,edge_length_cv,3,-0.6858278361708846,1.390719497188858,-2.437283229493241,0.24159197668623428
+enzymes,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,node_occlusion_rate,3,3.98263113249306,8.798694479429473,-7.152291926161201,16.02786130788548
+enzymes,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,community_compactness,3,-0.026192891517185832,0.15562685662577935,-0.3636374868182602,0.4096822908989583
+enzymes,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,community_separation,3,-0.28717597925279975,0.4927097119733959,-1.0044963642292284,0.0038037997622882946
+enzymes,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,community_sep_comp_ratio,3,-0.29272066268302627,0.468508785211974,-1.050924857881199,0.003007193094227333
+enzymes,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,community_silhouette,3,-0.22560454028318785,0.2493840464520682,-0.7427298461154275,0.05181500280799587
+fb15k237,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,graph_stress,3,0.04964984949162343,0.06627170700002588,-0.0048004726164312655,0.16231020137356306
+fb15k237,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,edge_crossing,3,0.023844195836114714,0.06836001249748971,-0.0412072811870851,0.13861957679240833
+fb15k237,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,edge_crossing_norm,3,0.14707843133735402,0.39040455945703045,-0.17821302856236662,0.7216365719639937
+fb15k237,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,edge_length_variance,3,0.08868723559907826,0.09768514575405589,-0.021979416140998936,0.2239853954736747
+fb15k237,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,edge_length_cv,3,0.022575883529718562,0.03185131624408458,-0.014666149235472391,0.06783131948481802
+fb15k237,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,node_occlusion_rate,3,-0.5747546178678521,1.1179920535639258,-3.6138129594977233,2.881861051639584
+fb15k237,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,community_compactness,3,0.02545113464795369,0.024307397248885233,-0.003261766916612059,0.06053290155163359
+fb15k237,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,community_separation,3,0.036102761371551995,0.04331125001479921,0.0005070286484881048,0.11485366784215274
+fb15k237,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,community_sep_comp_ratio,3,0.05458634840280874,0.058574921480680095,-0.0005540066546157253,0.15025086262143444
+fb15k237,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,community_silhouette,3,0.14104521937334988,0.1434817909247706,-0.03548088927688336,0.38539641783212575
+fb15k237,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),graph_stress,3,0.03732295609701738,0.02739068009033629,0.0002859413529611437,0.09115493609350268
+fb15k237,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),edge_crossing,3,0.012164293256404899,0.0035364673515982502,-0.017625352385030282,0.046776465202392974
+fb15k237,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),edge_crossing_norm,3,0.058955475544132586,0.1088531142011524,-0.09763211094458785,0.3066410941710656
+fb15k237,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),edge_length_variance,3,0.09832065946210365,0.12393278518783055,-0.023173102064074146,0.2408808068361895
+fb15k237,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),edge_length_cv,3,0.021839696826034437,0.041228287637269996,-0.020438577566592547,0.07218975545716126
+fb15k237,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),node_occlusion_rate,3,0.5795819003064179,4.099497624373752,-3.770489525984131,6.254312667917302
+fb15k237,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),community_compactness,3,0.010702860114732335,0.016920666258369816,-0.0076246806354627675,0.03355659540992905
+fb15k237,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),community_separation,3,0.013283561241872249,0.013315651265205683,-0.00014326757961637688,0.030578501499129652
+fb15k237,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),community_sep_comp_ratio,3,0.025040446645346357,0.0275277685456392,-0.0001066109277192387,0.055167986997973095
+fb15k237,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),community_silhouette,3,0.10460616894990397,0.1126627270391905,-0.0067981228798396996,0.245568636707001
+fb15k237,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,graph_stress,3,0.005711983445366632,0.01580251260019816,-0.02415243747706298,0.03299248386001459
+fb15k237,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,edge_crossing,3,-0.006453782735398739,0.011729777473673158,-0.03431913413258595,0.01939431435385183
+fb15k237,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,edge_crossing_norm,3,-0.03195647073719349,0.06329958703512639,-0.18655858604563805,0.0777436101967843
+fb15k237,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,edge_length_variance,3,0.03866703343041693,0.052969353551284494,-0.02489397547132166,0.11971634954333743
+fb15k237,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,edge_length_cv,3,0.01733658143785787,0.026991931311962623,-0.010194148265966829,0.05974740123874981
+fb15k237,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,node_occlusion_rate,3,1.0407006579369862,2.4556521751105724,-2.2784087948819427,5.398813653873099
+fb15k237,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,community_compactness,3,-0.003587092042503834,0.005467223811333244,-0.02423073542768759,0.014141410360870778
+fb15k237,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,community_separation,3,-0.00572126935838261,0.002987633333532025,-0.026499314047485185,0.008653475911130486
+fb15k237,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,community_sep_comp_ratio,3,-0.0066310986979242065,0.00354027366160621,-0.03604893074984945,0.017432309948868224
+fb15k237,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,community_silhouette,3,-0.07875531850625671,0.05774485340176138,-0.3476773378578863,0.08821175452825177
+sbm,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,graph_stress,3,-0.030012729011314965,0.013859136232442143,-0.06745414781995018,-0.0047809624931872945
+sbm,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,edge_crossing,3,-0.01240499460976662,0.01043112431790907,-0.03627768309160858,0.0038277101749928694
+sbm,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,edge_crossing_norm,3,-0.17350837147200104,0.08175209301697339,-0.47853075271754764,0.08949235988112343
+sbm,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,edge_length_variance,3,-0.07256730687424374,0.01458483057165269,-0.15764262874090165,-0.0034744293587854603
+sbm,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,edge_length_cv,3,-0.038852315673837706,0.017458917165374916,-0.07830890312716556,-0.004588476058704557
+sbm,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,node_occlusion_rate,3,-1.7828201274529782,4.435880160823923,-9.217582919759494,2.0801798547188857
+sbm,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,community_compactness,3,0.014756965460316853,0.026748165014854847,-0.014367272251496954,0.05791166487329507
+sbm,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,community_separation,3,0.009524061047352674,0.011653377332031032,-0.0017312114392928144,0.03521348505620978
+sbm,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,community_sep_comp_ratio,3,0.020294093110737932,0.022346987485914703,-0.0008582472425472161,0.06241995283080969
+sbm,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,community_silhouette,3,0.021182103592254198,0.011486033521332052,-0.02210153779338164,0.06415584731623135
+sbm,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),graph_stress,3,-0.06763161892663787,0.03467389605164713,-0.1660222619946357,-0.007162609415334668
+sbm,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),edge_crossing,3,-0.010900759526807288,0.004791078762869801,-0.03150893831757768,0.011992856042621116
+sbm,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),edge_crossing_norm,3,-0.2712356643623363,0.04953634608849537,-0.740678621435784,0.2097133711505693
+sbm,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),edge_length_variance,3,-0.2019796690095009,0.1027928337565234,-0.4808505737082263,-0.009327857627301669
+sbm,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),edge_length_cv,3,-0.10557688146986939,0.1009385064810187,-0.29305555764352587,-0.00545840673444041
+sbm,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),node_occlusion_rate,3,-2.56720424105298,4.627466423019926,-8.660619918285382,0.4596857274077505
+sbm,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),community_compactness,3,0.02373615824596618,0.018451769464006906,0.0007980327609242992,0.06054313976046922
+sbm,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),community_separation,3,-0.0003114935264215679,0.012111457691622609,-0.025044478417885544,0.015370922813328804
+sbm,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),community_sep_comp_ratio,3,0.014619246299111677,0.019858627495492564,-0.015500090715643735,0.04571027833413616
+sbm,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),community_silhouette,3,0.058197821623799224,0.06548807446485423,-0.03889212204565581,0.21945314368090008
+sbm,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,graph_stress,3,0.0002810815217069787,0.013868412711764009,-0.029040546279192395,0.03570587470479659
+sbm,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,edge_crossing,3,-0.0038889651524894753,0.006274573905628341,-0.018612543905974086,0.014554966436433711
+sbm,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,edge_crossing_norm,3,-0.011824795893767476,0.2188882781286255,-0.32485772656826156,0.4968292067950439
+sbm,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,edge_length_variance,3,-0.0727016685193932,0.09110632059908937,-0.22055505998436184,0.02742556030493494
+sbm,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,edge_length_cv,3,-0.04868596584464163,0.05491854974131974,-0.1366029659264943,0.013274980685676178
+sbm,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,node_occlusion_rate,3,-0.11644382572644056,3.273052569993579,-4.49520523729,4.537934177589381
+sbm,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,community_compactness,3,0.011792075060143445,0.022615719799607113,-0.007567756220762114,0.051372494765740385
+sbm,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,community_separation,3,0.015097162998552018,0.025525796277937683,-0.01039293447103372,0.07199972972197184
+sbm,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,community_sep_comp_ratio,3,0.021960433485242903,0.035282293596227546,-0.008001955855715096,0.09094579155857671
+sbm,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,community_silhouette,3,0.07820432599643262,0.1121270678281178,-0.02402663363861603,0.3028320346437568
+ALL,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,graph_stress,3,-0.03836752893570528,0.09247826324940289,-0.19351924633056647,0.05231222144822158
+ALL,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,edge_crossing,3,0.02304675562513031,0.035059832492761955,-0.12548251715383577,0.15585174798957585
+ALL,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,edge_crossing_norm,3,0.2833681011987689,0.5381250124448455,-0.13269616571502404,0.8332908635992531
+ALL,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,edge_length_variance,3,-0.02136595435194985,0.09538559085954086,-0.12159768534030713,0.0526768223966471
+ALL,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,edge_length_cv,3,-0.02873186953589144,0.04707070854908742,-0.10749079199104385,0.015670722014711404
+ALL,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,node_occlusion_rate,3,1.363024711205962,4.4437913517546805,-2.5294624569833797,5.55011600742352
+ALL,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,community_compactness,3,0.02064855145148027,0.005429618676167071,0.0029410146750390516,0.045017964649130264
+ALL,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,community_separation,3,0.014952241309731796,0.019026318727166192,0.0006304903604547127,0.042226387262228784
+ALL,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,community_sep_comp_ratio,3,0.028654040558333312,0.02292554428345199,0.007116750539407359,0.06289370199637896
+ALL,no_caid_macpsg_nodrop,full_nodrop,Joint CAID plus MA-CPSG objective effect,community_silhouette,3,0.06037737016579985,0.06986968558637449,-0.0033820815456377224,0.14707416602296133
+ALL,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),graph_stress,3,0.005022719171778429,0.06304923326829831,-0.05064005550767161,0.07192334082223494
+ALL,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),edge_crossing,3,-0.06112994726761297,0.10759427104959793,-0.2343931814193375,0.036997218321320996
+ALL,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),edge_crossing_norm,3,-0.22072246912639013,0.2581548159646504,-1.372915150323177,0.5852190983173544
+ALL,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),edge_length_variance,3,-0.007804447283410167,0.16840335175140667,-0.11925774310936034,0.09837276142859966
+ALL,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),edge_length_cv,3,-0.01051979668278461,0.08370774797013354,-0.0788347491053928,0.05754375628721694
+ALL,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),node_occlusion_rate,3,1.000149035326878,3.795154497594315,-2.8624374870585254,5.733008498128703
+ALL,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),community_compactness,3,0.014781269053398058,0.007765420773817148,0.003143628054747173,0.02920160624949117
+ALL,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),community_separation,3,0.002914631667981019,0.009190817120417463,-0.007732681944503912,0.011745526296301738
+ALL,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),community_sep_comp_ratio,3,0.015570693533829534,0.009031694493400518,0.0007272599153438034,0.030500882781980876
+ALL,no_caid_target_nodrop,full_nodrop,CAID target-loss effect (descriptors retained),community_silhouette,3,0.032653440625268475,0.08756539510654404,-0.04874828585428122,0.11708193085067181
+ALL,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,graph_stress,3,-0.82188031882245,1.4287311969490146,-3.2382473969222643,0.25624833814395626
+ALL,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,edge_crossing,3,-0.09143750118634088,0.1494228185402503,-0.6841457940865577,0.4039952193981335
+ALL,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,edge_crossing_norm,3,-1.3449534670676053,2.2916341565030853,-4.377264885085331,0.11614448372163294
+ALL,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,edge_length_variance,3,-0.4630470128016773,0.7745503302543738,-1.504831525368934,0.07223942251170046
+ALL,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,edge_length_cv,3,-0.23905907352588943,0.3883187989834158,-0.8487468087225282,0.07465755453980523
+ALL,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,node_occlusion_rate,3,1.6356293215678688,2.11330522272169,-2.7142153866238417,6.239393958920233
+ALL,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,community_compactness,3,-0.00599596949984874,0.01910671189460876,-0.11965810293593829,0.14306060081952485
+ALL,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,community_separation,3,-0.09260002853754346,0.16882891407874853,-0.32296795236689074,0.014752199677045384
+ALL,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,community_sep_comp_ratio,3,-0.09246377596523586,0.17401575916155332,-0.32514363960719084,0.019662657843814768
+ALL,no_macpsg_nodrop,full_nodrop,MA-CPSG auxiliary-loss effect,community_silhouette,3,-0.07538517759767065,0.1519324691921871,-0.2612109406782049,0.061124463593621337

@@ -1,0 +1,51 @@
+{
+  "dataset": "sbm",
+  "seed": 17,
+  "mode": "strict",
+  "sources": [
+    "full",
+    "same_weight_gate_zero",
+    "same_weight_gate_one",
+    "top_down_only",
+    "bottom_up_only"
+  ],
+  "alphas": [
+    0.0,
+    0.0625,
+    0.125,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "selection_metrics": [
+    "batch_stress",
+    "edge_crossing",
+    "edge_crossing_norm",
+    "edge_length_variance",
+    "edge_length_cv",
+    "node_occlusion_rate",
+    "community_compactness",
+    "community_separation",
+    "community_sep_comp_ratio",
+    "community_silhouette"
+  ],
+  "max_graphs": -1,
+  "partial": false,
+  "same_weight_counterfactuals": true,
+  "checkpoint_sha256": {
+    "baseline": "d55b2960f601d6ac33f69d13c538dd4cac1fe85f79eac62c5ef678bbbea988f1",
+    "full": "ce90e7c3aa51b2d41630d89bb94a944fed7126c5d0d79cf787639aca18cb0b86"
+  },
+  "source_sha256": {
+    "scripts\\evaluate_hctf_mechanistic_counterfactuals.py": "6188995f9a172f788cbb26de0ad864bda6a9997f666b5c2fa9e1c67b7597a71d",
+    "deepgd\\model\\generator\\hctf.py": "550a8153cced3524ad658c4ab911cbf84f1e4976de9477041b5249f107c2d38a",
+    "deepgd\\model\\generator\\generator.py": "90a7ad665d35bbc9ace30bea8575f7ce8e446c490c1afa5f50d9f9ea6595f802",
+    "scripts\\hctf_q1_controls.py": "a468fca376ac7ebcd4bd6be5fa135c89aedc23a61c6f51de12c4dad8862604e0",
+    "scripts\\hctf_fast_audit.py": "30450a5ab69e0f8ffb650c79a5761da4d76653550e4e258b432421a82a2ca9a7"
+  },
+  "graphs": 225,
+  "rows": 2475,
+  "all_sources_complete": true,
+  "reference_partition": "planted_sbm"
+}

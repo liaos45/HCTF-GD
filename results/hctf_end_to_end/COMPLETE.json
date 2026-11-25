@@ -1,0 +1,40 @@
+{
+  "complete": true,
+  "sizes": [
+    16,
+    32,
+    64,
+    128,
+    256,
+    512
+  ],
+  "graph_seeds": [
+    901,
+    902
+  ],
+  "repeats": 2,
+  "configuration": "adaptive",
+  "checkpoint_dataset": "enzymes",
+  "checkpoint_seed": 42,
+  "warmup_repeats_per_graph": 1,
+  "python": "3.13.3",
+  "torch": "2.7.0+cu118",
+  "device": "NVIDIA GeForce RTX 4060",
+  "accuracy_evidence": false,
+  "input": "Fresh connected SBM; target mean degree approximately 6",
+  "included": [
+    "Fresh graph transforms and APSP",
+    "Classical MDS and community detection",
+    "Feature construction and model forward",
+    "Separate baseline forward for audited proposals",
+    "Six-point exact audit"
+  ],
+  "excluded": [
+    "Model initialization/loading",
+    "Disk I/O",
+    "Unselected visual endpoints"
+  ],
+  "initial_layout": "Fresh classical MDS, shared by learned controls",
+  "memory_scope": "CUDA allocated peak including all three persistent models; resident and incremental peaks also recorded. CPU RAM and allocator caches not measured.",
+  "warning": "Run with no other training/evaluation processes for interpretable timing comparisons."
+}

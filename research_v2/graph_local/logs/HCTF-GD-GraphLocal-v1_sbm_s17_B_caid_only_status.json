@@ -1,0 +1,12 @@
+{
+  "run_name": "HCTF-GD-GraphLocal-v1_sbm_s17_B_caid_only",
+  "status": "VALIDATION_COMPLETE",
+  "exit_code": 0,
+  "start_utc": "2026-11-11T20:34:41.386661+00:00",
+  "end_utc": "2026-11-11T20:48:36.136593+00:00",
+  "best_checkpoint_sha256": "4e5f1d9648290cad46c878603dc649901b963de341256c57913d06a4398dcc4c",
+  "history_sha256": "dfc7474739d12ab0971eddd1e5f0aff7c8c65f5cf297e4fae36ae67c159f05e8",
+  "test_csv_exists": false,
+  "log_path": "research_v2/graph_local/logs/HCTF-GD-GraphLocal-v1_sbm_s17_B_caid_only.log",
+  "config_path": "research_v2/graph_local/configs/HCTF-GD-GraphLocal-v1_sbm_s17_B_caid_only.json"
+}

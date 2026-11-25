@@ -1,0 +1,43 @@
+{
+  "status": "VALIDATION_GRAPHWISE_COMPLETE",
+  "domain": "fb15k237",
+  "seed": 73,
+  "model_id": "HCTF-GD-GraphLocal-v1",
+  "split": "validation",
+  "graphs": 300,
+  "rows": 1200,
+  "variants": [
+    "A_both",
+    "B_caid_only",
+    "C_macpsg_only",
+    "D_neither"
+  ],
+  "checkpoint_paths_and_hashes": {
+    "A_both": {
+      "path": "research_v2/graph_local/checkpoints/HCTF-GD-GraphLocal-v1_fb15k237_s73_A_both_best.pt",
+      "sha256": "c8d45a6b683b3bfdc00a3b374e67222b167599706dae9495a807ceff9b087a7e"
+    },
+    "B_caid_only": {
+      "path": "research_v2/graph_local/checkpoints/HCTF-GD-GraphLocal-v1_fb15k237_s73_B_caid_only_best.pt",
+      "sha256": "a453792d0e1da2dc2eac03c0a5fbb1d85bb8200ddf385b0459a6b2e9a2608658"
+    },
+    "C_macpsg_only": {
+      "path": "research_v2/graph_local/checkpoints/HCTF-GD-GraphLocal-v1_fb15k237_s73_C_macpsg_only_best.pt",
+      "sha256": "cdb775a0dbd821c11a58c8be7c10fd7cf5f4eac700b05081e5c5e433f1db859c"
+    },
+    "D_neither": {
+      "path": "research_v2/graph_local/checkpoints/HCTF-GD-GraphLocal-v1_fb15k237_s73_D_neither_best.pt",
+      "sha256": "cb8a8b992a3af6c8f9d73501e5d614e6f907496e5ea7d52f0bd6326c66418ce0"
+    }
+  },
+  "manifest_sha256": "b20c82b9b47055814690cfbb64e70a15dace7c65085a13c6d1decda0fec129aa",
+  "evaluation_script_sha256": "3e2ca2ac2e6f7e57052bbb211c27fcfa5e01470f78f466e03947bbfca857f81b",
+  "graphwise_csv_sha256": "8816d7a7c7a1cd3b8d0f72c4ce1d66ee7e08fceadb1dfbd980d3c6cc4e70abdf",
+  "coordinates_npz_sha256": "d63f8f22beae1a60c44c1d8ec375023325ed14e3a960eac1c65e1582b3950a1f",
+  "primary_metric": "stored-forward pair-normalized stress: local DeepGD pair-sum / n(n-1)",
+  "runtime_scope": "one graph forward_model, GPU synchronized; excludes dataset construction and CPU metric audits",
+  "community_labels": "checkpoint dataset's graph-local supplied labels",
+  "selection_note": "Validation was used to select these checkpoints; results are developmental, not independent Test evidence.",
+  "reserved_test_evaluation": false,
+  "device": "cuda"
+}

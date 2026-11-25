@@ -1,0 +1,12 @@
+{
+  "run_name": "HCTF-GD-GraphLocal-v1_fb15k237_s42_D_neither",
+  "status": "VALIDATION_COMPLETE",
+  "exit_code": 0,
+  "start_utc": "2026-11-11T18:58:33.926039+00:00",
+  "end_utc": "2026-11-11T19:09:25.010760+00:00",
+  "best_checkpoint_sha256": "9cd8be0ac4f3beac0772a03b9d75b59fd7f9d2116a73b1d184350fbd765a7680",
+  "history_sha256": "cdab6963c34eb04aeaa4c6a93987d1a37ad254963232dc02bd059a419d408ad0",
+  "test_csv_exists": false,
+  "log_path": "research_v2/graph_local/logs/HCTF-GD-GraphLocal-v1_fb15k237_s42_D_neither.log",
+  "config_path": "research_v2/graph_local/configs/HCTF-GD-GraphLocal-v1_fb15k237_s42_D_neither.json"
+}

@@ -1,0 +1,59 @@
+{
+  "dataset": "fb15k237",
+  "seed": 17,
+  "mode": "strict",
+  "sources": [
+    "full",
+    "node",
+    "same_weight_gate_zero",
+    "random",
+    "stress_gradient",
+    "community_gradient",
+    "weighted_smacof_5",
+    "weighted_smacof_25",
+    "weighted_smacof_100",
+    "kk"
+  ],
+  "alphas": [
+    0.0,
+    0.0625,
+    0.125,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "selection_metrics": [
+    "batch_stress",
+    "edge_crossing",
+    "edge_crossing_norm",
+    "edge_length_variance",
+    "edge_length_cv",
+    "node_occlusion_rate",
+    "community_compactness",
+    "community_separation",
+    "community_sep_comp_ratio",
+    "community_silhouette"
+  ],
+  "post_decision_task_metrics": [
+    "routing_success_rate",
+    "routing_efficiency",
+    "community_recovery_ari",
+    "community_recovery_nmi"
+  ],
+  "max_graphs": -1,
+  "queries": 128,
+  "single_baseline_inference": true,
+  "timing_isolated": false,
+  "partial": false,
+  "checkpoint_sha256": {
+    "baseline": "83ebfac8f6f7095e7c0087ba9de89db5bc667b5e6a8fac6b4073bd19cb8461d6",
+    "full": "2268dc22ba3603c393065925e7ad8c17781af0f55a1e3febb1da7d579bff0052",
+    "node": "facbee6217234a5931dfea34a271ef05492e2b48828230c21c035a5dddb498f6"
+  },
+  "source_sha256": {
+    "hctf_q1_controls.py": "a468fca376ac7ebcd4bd6be5fa135c89aedc23a61c6f51de12c4dad8862604e0",
+    "evaluate_hctf_q1_controls.py": "a6552a1f3d984deacef13ee94e603288f8cfc14b2c5bc4c4a6f904f7d4fb8538",
+    "hctf_fast_audit.py": "30450a5ab69e0f8ffb650c79a5761da4d76653550e4e258b432421a82a2ca9a7"
+  }
+}

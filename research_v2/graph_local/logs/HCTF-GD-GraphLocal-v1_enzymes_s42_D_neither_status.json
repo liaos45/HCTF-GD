@@ -1,0 +1,12 @@
+{
+  "run_name": "HCTF-GD-GraphLocal-v1_enzymes_s42_D_neither",
+  "status": "VALIDATION_COMPLETE",
+  "exit_code": 0,
+  "start_utc": "2026-11-11T16:37:28.120842+00:00",
+  "end_utc": "2026-11-11T16:45:01.236361+00:00",
+  "best_checkpoint_sha256": "99bf11edd453dcfc6864fa378642687c61e47553630e452ba3e968f8f143f169",
+  "history_sha256": "471aaead0ee649b41e7cec6fb82e63beaea77c8c6e0e7f848671bc52e4b4bc3e",
+  "test_csv_exists": false,
+  "log_path": "research_v2/graph_local/logs/HCTF-GD-GraphLocal-v1_enzymes_s42_D_neither.log",
+  "config_path": "research_v2/graph_local/configs/HCTF-GD-GraphLocal-v1_enzymes_s42_D_neither.json"
+}

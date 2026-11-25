@@ -1,0 +1,10 @@
+{
+  "total_downstream_splits": 40,
+  "reconstructed": 35,
+  "train_overlap": 28,
+  "reconstructed_without_train_overlap": 7,
+  "unknown": 5,
+  "zero_train_overlap_all_warm_test": true,
+  "test_records": 9725,
+  "distinct_domain_graph_ids": 4830
+}

@@ -1,0 +1,7 @@
+metric,contrast,equal_domain_mean_gain_pct,bootstrap_95_low_pct,bootstrap_95_high_pct,bootstrap_replicates,statistical_scope
+graph_stress,A_vs_B,0.006520808105541766,-0.002335661470453859,0.022183346007499515,10000,Validation development; checkpoint selected on same split
+graph_stress,A_vs_C,-0.0024895400250569367,-0.017109037393447962,0.01644847561017565,10000,Validation development; checkpoint selected on same split
+graph_stress,A_vs_D,0.0015107608423556764,-0.004446699134696333,0.010455179855602906,10000,Validation development; checkpoint selected on same split
+graph_stress,CAID_main,-0.003748666652243046,-0.01172417919838171,0.003960819774656531,10000,Validation development; checkpoint selected on same split
+graph_stress,MACPSG_main,0.005259427494598723,-0.000843748471256102,0.01105699129349989,10000,Validation development; checkpoint selected on same split
+graph_stress,interaction,0.00252640416628023,-0.012679411283490651,0.028064128305727673,10000,Validation development; checkpoint selected on same split

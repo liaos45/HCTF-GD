@@ -1,0 +1,5 @@
+metric,archived_baseline,archived_raw_full,direction,current_code_absolute_tolerance,relative_tolerance,result
+community_compactness,1.160451114177704,1.1634203791618347,lower,1e-08,0.0,Reject
+community_separation,2.6027212142944336,2.59836745262146,higher,1e-08,0.0,Reject
+community_sep_comp_ratio,2.2428529562797395,2.233386570261061,higher,1e-08,0.0,Reject
+community_silhouette,0.1639513820409774,0.1622549295425415,higher,1e-08,0.0,Reject
